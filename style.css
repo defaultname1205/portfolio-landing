@@ -55,7 +55,7 @@ ul a {
     margin-bottom: 10px;
 }
 
-#facebook-page {
+#link-id {
     width: 100px;
     height: 30px;
     background-color: #0070c2;
@@ -68,4 +68,30 @@ ul a {
 .header-bottom img {
     width: 500px;
     height: 250px;
+}
+
+.content h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.content img {
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+    background-color: gray;
+}
+
+.content .images {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.content figcaption {
+    font-size: 15px;
+    text-align: center;
 }
