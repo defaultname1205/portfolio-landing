@@ -73,7 +73,7 @@ ul a {
 .content h1 {
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 50px;
     font-size: 25px;
 }
 
@@ -94,4 +94,50 @@ ul a {
 .content figcaption {
     font-size: 15px;
     text-align: center;
+}
+
+.quote {
+    background-color: #E5E4E2;
+    padding: 50px 200px 50px 200px;
+    margin-top: 50px;
+}
+
+.quote p {
+    margin-top: 20px;
+    font-style: italic;
+    font-size: 20px;
+    text-align: center;
+}
+
+.quote h3 {
+    margin-right: 50px;
+    margin-top: 25px;
+    text-align: end;
+}
+
+.signup {
+    display: flex;
+    background-color: #0070c2;
+    color: white;
+    margin: 25px 250px 25px 250px;
+    padding: 35px 75px;
+    border-radius: 10px;
+}
+
+.signup .text {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup button {
+    margin-left: 150px;
+    width: 100px;
+    height: 35px;
+    opacity: 10;
+    background-color: #0070c2;
+    border-radius: 10px;
+    border: 2px solid white;
+    color: white;
+    font-weight: bold;
+    margin-top: 5px;
 }
